@@ -16,7 +16,6 @@ void setup()
 {
   size(800, 800);
   curGrid = new int[width / cellSize][height / cellSize];
-  // nextGrid = new int[width / cellSize][height / cellSize];
   
   drawGrid(curGrid);
   delay(300);
